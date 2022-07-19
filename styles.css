@@ -8,10 +8,10 @@
 #introduction {
   background-color: #fff;
 }
+
 #hero__carousel,
 #products {
   margin-top: 5rem;
-  margin-bottom: 1rem;
 }
 
 #contact__container {
@@ -22,6 +22,13 @@
 /* #schedule {
   color: #fff;
 } */
+
+.carousel-caption {
+  top: 10%;
+  left: 30%;
+  right: 30%;
+  color: rgb(119, 255, 131);
+}
 
 .navbar,
 #testimonies,

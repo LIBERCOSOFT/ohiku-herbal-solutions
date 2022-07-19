@@ -10,7 +10,8 @@
 }
 
 #hero__carousel,
-#products {
+#products,
+#about__container {
   margin-top: 5rem;
 }
 

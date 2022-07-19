@@ -1,25 +1,39 @@
-body {
+/* body {
   background-image: url('images/herbal.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
+} */
 
 #introduction {
   background-color: #fff;
 }
-#hero__carousel {
+#hero__carousel,
+#products {
   margin-top: 5rem;
+  margin-bottom: 1rem;
 }
 
-#schedule {
+#contact__container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* #schedule {
   color: #fff;
-}
+} */
 
-#testimonies {
+.navbar,
+#testimonies,
+.footer {
   background-color: #198754;
+  font-weight: 500;
 }
 
 #testimonies figcaption {
   color: #fff;
 }
+
+/* #products__container {
+  background-image: url('images/spiritual.jpg');
+} */

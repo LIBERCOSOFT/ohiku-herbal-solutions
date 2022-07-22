@@ -11,6 +11,10 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
     <link href="styles.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="images/logo.png" />
   </head>
@@ -41,16 +45,19 @@
           <div class="me-auto mb-2 mb-lg-0"></div>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link text-success" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link text-success" href="about.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="products.html">Products</a>
+              <a class="nav-link text-success" href="products.html">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html"
+              <a
+                class="nav-link active text-success"
+                aria-current="page"
+                href="contact.html"
                 >Contact Us</a
               >
             </li>
@@ -60,36 +67,44 @@
     </nav>
     <main>
       <section id="contact__container">
-        <div class="py-5 px-3">
-          <h1 class="text-center fw-bold">Contact Us</h1>
-          <div class="d-lg-flex justify-content-between text-center">
-            <div class="pt-1">
-              <p class="fw-bolder">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Nesciunt
-                <br />
-                officiis dicta quam tempora fugit aliquid quod facilis
-                inventore<br />
-                explicabo.
-              </p>
-              <h3 class="fw-bolder">Email:</h3>
-              <p class="fs-2">contact@ohikuherbalsolution.com</p>
-              <h3 class="fw-bolder">Phone Number:</h3>
-              <p class="fs-2">09164148449</p>
-              <h3 class="fw-bolder">Address:</h3>
-              <p class="fs-2">XXX, XXXXXXXX XXXX XXXX, XXXXXXX, Abeokuta.</p>
+        <div class="py-5 px-3 mt-sm-5">
+          <h1 class="text-center fw-bold text-success pt-lg-5 display-4">
+            Contact Us
+          </h1>
+          <div class="pt-lg-2"></div>
+          <div class="d-lg-flex justify-content-evenly text-center">
+            <div class="pt-lg-5">
+              <i class="bi bi-geo-alt text-success fs-1"></i>
+              <h4 class="text-success">Visit Us</h4>
+              <p class="fs-4">19A, Liverpool Road, Apapa GRA.</p>
             </div>
-            <img
-              src="images/contact.jpg"
-              class="img-thumbnail px-2"
-              alt="..."
-              style="width: 30rem; height: 25rem"
-            />
+            <div class="pt-lg-5">
+              <i class="bi bi-telephone text-success fs-1"></i>
+              <h4 class="text-success">Call Us</h4>
+              <p class="fs-4">+(234)9164148449</p>
+            </div>
+            <div class="pt-lg-5">
+              <i class="bi bi-envelope text-success fs-1"></i>
+              <h4 class="text-success">Mail Us</h4>
+              <p class="fs-4">contact@ohikuherbalsolution.com</p>
+            </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer mt-auto py-3">
+    <footer class="footer fixed-bottom py-0 bg-success">
+      <div class="d-lg-flex justify-content-evenly p-1" id="footer__info">
+        <p>
+          <a class="text-decoration-none text-light" href="#"
+            ><i class="bi bi-facebook pe-1"></i>facebook</a
+          >
+        </p>
+        <p>
+          <a class="text-decoration-none text-light" href="#"
+            ><i class="bi bi-instagram pe-1"></i>instagram</a
+          >
+        </p>
+      </div>
       <div class="container text-center">
         <span class="text-muted">Ohiku Herbal Solutions</span>
       </div>

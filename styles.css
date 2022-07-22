@@ -32,9 +32,13 @@
 }
 
 .navbar,
-#testimonies,
 .footer {
-  background-color: #198754;
+  background-color: #fff;
+  font-weight: 500;
+}
+#testimonies {
+  /* background-color: #057a28; */
+  color: #fff;
   font-weight: 500;
 }
 

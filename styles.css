@@ -49,3 +49,9 @@
 /* #products__container {
   background-image: url('images/spiritual.jpg');
 } */
+
+.about p {
+  margin: 0;
+  text-indent: 2rem;
+  text-align: justify;
+}
